@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header section */
+
+
+header{
+    background-color: rgb(0, 110, 255);
+}
+.logo{
+    display: flex;
+}
+.logo i{
+    color: crimson;
+    margin: 10px 10px;
+}
+.logo h1{
+    color: rgb(135, 219, 222);
+    margin: 15px 10px;
+}
+
+
+/* home section */
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 472px;
+}
+
+#home::before{
+   content: "";
+   background: url(../img/college.jpg) no-repeat center center/cover;
+   position: absolute;
+   width:100%;
+   height:75%;
+   top: 0;
+   left: 0;
+   z-index: -1;
+}
+
+/* program section */
+#about-program{
+    margin: 50px 0px;
+    height: 200px;
+}
+.program{
+    display: flex;
+    justify-content: center;
+}
+.program-item{
+    background-color: black;
+    color: white;
+     margin: 50px 20px;
+     width: 450px;
+     height: 66px;
+     padding: 10px;
+}
+
+.program-item .first::after{
+    content: "Online Courses";
+    padding: 0px 10px;
+    color: white;
+    font-weight: 100;
+    font-size: 24px;
+    
+}
+.program-item .second::after{
+    content: "Our Library";
+    padding: 0px 10px;
+    color: white;
+    font-weight: 100;
+    font-size: 24px;
+}
+.program-item .third::after{
+    content: "Our Teachers";
+    padding: 0px 10px;
+    color: white;
+    font-weight: 100;
+    font-size: 24px;
+}
+.program-item p{
+    margin: 0px 43px;
+}
+
+
+.center{
+    text-align: center;
+    text-shadow: 0px 0px 6px black;
+    font-size: 40px;
+}
+
+
+
+/* course section */
+#course-item{
+    display: flex;
+    height: 500px;
+}
+.college-course{
+    background-color: rgb(211, 223, 211);
+}
+.item{
+    margin: 60px 46px;
+    box-shadow: 2px 8px 6px black;
+    width:100%;
+}
+.item h3{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.item .para{
+    margin-left: 70px;
+}
+.item img{
+    width: 100%;
+}
+#course-item .content{
+    display: flex;
+    background-color: rgb(179, 170, 170);
+}
+#course-item .content img{
+    width: 11%;
+    padding: 4px 9px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.content h4,p{
+    margin-top:5px;
+    padding:5px 1px ;
+}
+
+
+/* registration section */
+#register{
+    height: 400px;
+    background-color:rgb(53 165 119 / 88%);
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-content h1{
+      width: 30%;
+      margin:auto;
+      word-spacing: 6px;
+      color:#cccccc;
+}
+.register-content .discount{
+    margin-left: 39%;
+}
+.register-content p{
+    width: 67%;
+    margin: 15px auto;
+    color:#cccccc;
+}
+.btn{
+    margin: 18px 45%;
+    font-size: 11px;
+    background-color: black;
+    color:white;
+    padding:10px 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* search section */
+#search{
+    height:50%;
+}
+#search::before{
+    content: "";
+    background: url(../img/pic3.jpg) no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height:50%;
+    z-index: -1;
+    opacity: 0.84;
+
+}
+.search-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.heading{
+    margin:20px 0px; 
+}
+.details{
+    margin: 9px 0px;
+}
+.details input{
+    width: 400px;
+    padding: 5px 10px;
+    border: ipx solid black;
+    font-weight: bold;
+}
+.btn1{
+    background-color: rgba(81, 68, 255, 0.521);
+    padding: 5px 165px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid black;
+}
+
+
+/* service section */
+
+#our-services{
+    height: 476px ;
+    margin-top: 200px;
+}
+.service-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 27px;
+    grid-column-gap: 10px;
+    margin: 60px 20px;
+}
+.service-courses{
+    background-color: #d2d7db;
+}
+.service-courses i,h3,p{
+    margin: 4px 8px;
+}
+.service-courses p{
+    color:#645b5be0;
+    width: 331px;
+}
+
+
+/* student section */
+
+#student-topic{
+    height: 590px;
+}
+#student-topic::before{
+    content: "";
+   background: url(../img/student.jpg) no-repeat center center/cover;
+   position: absolute;
+   width:100%;
+   height:70%;
+   opacity: 0.75;
+   z-index: -1;
+}
+.students-lines{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.students-lines h2{
+    margin: 50px;
+}
+.students-lines p{
+    width: 60%;
+}
+.students-lines img{
+    margin-top: 30px;
+    border-radius: 50%;
+    width: 4%;
+}
+
+
+/* event section */
+#event-section{
+    height: 80%;
+}
+.events{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr;
+    grid-row-gap: 33px;
+    margin-top:40px;
+    margin-left: 160px;
+}
+.college-fest img{
+   margin: 10px;
+    width: 58%;
+}
+.event-date{
+    margin: 10px;
+    border: 2px solid red;
+    width:9%;
+    color: salmon;
+}
+.event-topic{
+    margin: 10px;
+}
+.event-topic h4,h5{
+    margin: 3px;
+}
+.event-topic h6{
+    color: silver;
+    width: 50%;
+}
+
+/* footer section */
+
+
+#footer-containt{
+    height: 480px;
+    background-color: rgba(0, 0, 0, 0.781);
+    margin-top: 40px;
+}
+#footer-containt h2{
+    text-align: center;
+}
+.footer-item{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 60px;
+}
+.footer-item ul{
+    list-style: none;
+    margin-top: 19px;
+}
+.footer-item ul li{
+    padding: 5px;
+}
+.footer-item ul li a{
+    color: cadetblue;
+    text-decoration: none;
+}
+.contact-item{
+    color: cadetblue;
+    display: flex;
+}
+.copy-right{
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
