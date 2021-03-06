@@ -1,0 +1,100 @@
+@media only screen and (max-width:360px){
+    body, html{
+         overflow-x: hidden;
+     }
+     .navbar{
+         display: flex;
+         flex-direction: column;
+         height: 150px;
+     }
+     .student-login ul{
+         margin-top: -61px;
+         display: flex;
+         justify-content: center;
+     }
+     #home{
+         height:454px;
+     }
+     #home::before{
+         width: 100%;
+     }
+     #home h3{
+         font-size: 24px;
+         margin-bottom: 48px;
+     }
+     #about-program {
+         margin: 100px 0px;
+         height: 356px;
+     }
+     .program{
+         display: flex;
+         flex-direction: column;
+     }
+     .program-item {
+         margin: 23px auto;
+         width: 300px;
+     }
+     #course-item{
+         display: flex;
+         flex-direction: column;
+         margin-top: 30px;
+         height:1102px;
+     }
+     .item {
+         margin: 21px auto;
+         width: 90%;
+     }
+     .item h3 {
+         margin-left: 40px;
+     }
+     .item .para {
+         
+         margin-left: 40px;
+     }
+     #register {
+         height:312px;
+         margin-top: 32px;
+     }
+     .register-content h1 {
+         word-spacing: 0px;
+         font-size: 16px;
+         margin-left: 39px;
+         width: 100%;
+     }
+     .register-content .discount {
+         margin-left: 24%;
+     }
+     .register-content p {
+         width: 92%;
+         font-size: 11px;
+     }
+     .btn{
+         margin: 18px 33%;
+     }
+     #search {
+        /* height: 148%; */
+        height: 318px;
+    }
+     .details input {
+         width: 283px;
+     }
+     .btn1 {
+         padding: 5px 103px;
+     }
+     #our-services {
+         height: 981px;
+        margin-top: 31px;
+    }
+    .service-items{
+        display: flex;
+        flex-direction: column;
+        margin: 42px 20px;
+    }
+    .service-courses {
+        margin-top: 8px;
+    }
+    .service-courses p {
+        width: 263px;
+        font-size: 10px;
+    }
+ }
