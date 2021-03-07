@@ -38,7 +38,7 @@
          display: flex;
          flex-direction: column;
          margin-top: 30px;
-         height:1102px;
+         height:1151px;
      }
      .item {
          margin: 21px auto;
@@ -82,7 +82,7 @@
          padding: 5px 103px;
      }
      #our-services {
-         height: 981px;
+         height:954px;
         margin-top: 31px;
     }
     .service-items{
@@ -97,4 +97,57 @@
         width: 263px;
         font-size: 10px;
     }
+
+    .students-lines h2 {
+        margin: 67px auto 52px;
+    }
+    .students-lines p {
+        width: 79%;
+        font-size: 10px;
+        margin: -24px auto;
+    }
+    .students-lines img {
+        display: none;
+    }
+    .students-lines h4{
+        margin:66px auto 0px;
+    }
+    .students-lines h5{
+        margin: 2px;
+    }
+    .events{
+        display: flex;
+        flex-direction: column;
+        margin: 40px auto;
+    }
+    .college-fest{
+        margin: 10px;
+        border: 1px solid #a59d9d;
+        padding: 4px;
+    }
+    .college-fest img {
+        width: 84%;
+    }
+    .event-date {
+        width: 24%;
+    }
+    .event-topic h4, h5 {
+        margin: 3px 0px 2px 0px;
+    }
+    .event-topic h6 {
+        width: 88%;
+    }
+    .footer-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr ;
+        grid-row-gap: 20px;
+        margin-left: 20px;
+        
+    }
+    hr{
+        display: none;
+    }
+
+    
  }
