@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 /* header section */
 
@@ -45,7 +46,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height:700px;
+    height:1000px;
+    /* height: auto; */
 }
 #home h3{
     color:white;
@@ -58,10 +60,11 @@
    background: url(../img/college.jpg) no-repeat center center/cover;
    position: absolute;
    width:100%;
-   height:100%;
+   /* height:100%; */
    top: 0;
    left: 0;
    z-index: -1;
+   height: 1000px;
 }
 
 /* program section */
@@ -78,7 +81,7 @@
     color: white;
      margin: 50px 20px;
      width: 450px;
-     height: 66px;
+     height: 83px;
      padding: 10px;
 }
 
@@ -205,7 +208,7 @@
     background: url(../img/pic3.jpg) no-repeat center center/cover;
     position: absolute;
     width: 100%;
-    height:50%;
+    height:318px;
     z-index: -1;
     opacity: 0.84;
 
@@ -230,7 +233,7 @@
 }
 .btn1{
     background-color: rgba(81, 68, 255, 0.521);
-    padding: 5px 165px;
+    padding: 5px 153px;
     margin-top: 10px;
     font-weight: bold;
     color: white;
@@ -316,7 +319,7 @@
 .event-date{
     margin: 10px;
     border: 2px solid red;
-    width:9%;
+    width:10%;
     color: salmon;
 }
 .event-topic{

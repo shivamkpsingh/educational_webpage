@@ -1,0 +1,130 @@
+@media only screen and (min-width:361px) and (max-width:576px){
+    body, html{
+        overflow-x: hidden;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+    }
+    .student-login ul{
+        margin-top: -61px;
+        display: flex;
+        justify-content: center;
+    }
+    #home {
+        height:320px;
+    }
+    #home::before{
+        height: 320px;
+        top: 148px;
+    }
+    #home h3 {
+        font-size: 31px;
+    }
+    #about-program {
+        height: 394px;
+        margin: 25px 0px;
+    }
+    .program {
+        display: flex;
+        flex-direction: column;
+    }
+    .program-item {
+        margin: 19px auto;
+        width: 342px;
+    }
+    #course-item {
+        display: flex;
+       flex-direction: column;
+       margin-top: 25px;
+       /* height: 1246px; */
+       height: auto;
+}
+    
+    .item {
+        margin: 10px auto;
+        width: 94%;
+        padding: 18px;
+    }
+    .register-content h1 {
+        word-spacing: 0px;
+        font-size: 16px;
+        margin-left: 58px;
+        width: 100%;
+    }
+    .register-content .discount {
+        margin-left: 24%;
+    }
+    .register-content p {
+        width: 92%;
+        font-size: 11px;
+    }
+    .btn {
+        margin: 18px 36%;
+    }
+    #search {
+        height: 178px;
+    }
+    .details input {
+        width: 338px;
+        
+    }
+    .btn1 {
+        padding: 5px 121px;
+    }
+    #our-services {
+        height:auto;
+        
+    }
+    .service-items {
+        display: flex;
+        flex-direction: column;
+    }
+    .service-courses p {
+        width: 325px;
+    }
+    .students-lines p {
+        width: 79%;
+        font-size: 10px;
+        margin: -24px auto;
+    }
+    .students-lines img {
+        display:none;
+    }
+    .students-lines h4{
+        margin:66px auto 0px;
+    }
+    .students-lines h5{
+        margin: 2px;
+    }
+    .events{
+        display: flex;
+        flex-direction: column;
+       height: auto;
+       margin: 33px auto;
+    }
+    .college-fest{
+        margin: 0px 10px;
+        padding: 4px;
+        border: 1px solid #a59d9d; 
+    }
+    .college-fest img {
+        width: 100%;
+        margin: 0;
+    }
+    .event-date {
+        width: 18%;
+    }
+    .footer-item {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 27px;
+        margin-top: 60px;
+        margin-left:35px;
+       
+    }
+    hr{
+        display: none;
+    }
+}
