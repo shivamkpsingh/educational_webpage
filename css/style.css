@@ -169,20 +169,17 @@
 #register{
     height: 400px;
     background-color:rgb(53 165 119 / 88%);
-    margin-top: 100px;
+    margin-top: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .register-content h1{
-      width: 30%;
-      margin:auto;
-      word-spacing: 6px;
-      color:#cccccc;
+     color:#cccccc; 
+     text-align: center;
+     font-size: 17px;
 }
-.register-content .discount{
-    margin-left: 39%;
-}
+
 .register-content p{
     width: 67%;
     margin: 15px auto;
@@ -201,7 +198,7 @@
 
 /* search section */
 #search{
-    height:50%;
+    height:318px;
 }
 #search::before{
     content: "";
@@ -245,7 +242,7 @@
 
 #our-services{
     height: 476px ;
-    margin-top: 200px;
+    margin-top:71px;
 }
 .service-items{
     display: grid;
@@ -257,6 +254,7 @@
 }
 .service-courses{
     background-color: #d2d7db;
+    transition: cubic-bezier(0.42, 0, 0.49, 1.07)  ease-in;
 }
 .service-courses i,h3,p{
     margin: 4px 8px;
@@ -296,14 +294,13 @@
 .students-lines img{
     margin-top: 30px;
     border-radius: 50%;
-    width: 4%;
+    width: 88px;
+    height: 93px;
 }
 
 
 /* event section */
-#event-section{
-    height: 80%;
-}
+
 .events{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -311,6 +308,7 @@
     grid-row-gap: 33px;
     margin-top:40px;
     margin-left: 160px;
+   
 }
 .college-fest img{
    margin: 10px;

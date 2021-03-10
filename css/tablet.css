@@ -47,24 +47,12 @@
         width: 94%;
         padding: 18px;
     }
-    .register-content h1 {
-        word-spacing: 0px;
-        font-size: 16px;
-        margin-left: 58px;
-        width: 100%;
-    }
-    .register-content .discount {
-        margin-left: 24%;
-    }
     .register-content p {
         width: 92%;
         font-size: 11px;
     }
     .btn {
         margin: 18px 36%;
-    }
-    #search {
-        height: 178px;
     }
     .details input {
         width: 338px;
@@ -121,6 +109,7 @@
         grid-template-columns: 1fr 1fr;
         grid-row-gap: 27px;
         margin-top: 60px;
+        margin-left: 10px;
        
     }
     hr{

@@ -1,0 +1,71 @@
+@media only screen and (min-width:577px) and (max-width:768px){
+    body, html{
+        overflow-x: hidden;
+    }
+    #home::before {
+        top: 69px;
+        height: 513px;
+    }
+    #home{
+        height:513px;
+    }
+    #about-program {
+        height: auto;
+    }
+    .program {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .program-item {
+        margin: 33px auto;
+    }
+    #course-item {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin-top: 34px;
+    }
+    .item {
+        margin: 23px 46px;
+    }
+    .btn {
+        margin: 18px 38%;
+    }
+    #our-services {
+        height: auto
+    }
+    .service-items {
+       display: flex;
+       flex-wrap: wrap;
+       margin-top: 45px;
+    }
+    .service-courses{
+        margin: 15px auto;
+    }
+    .students-lines p {
+        width: 66%;
+    }
+    .students-lines img{
+        display: none;
+    }
+    .college-fest{
+        margin: 0px 10px;
+        padding: 4px;
+        border: 1px solid #a59d9d; 
+    }
+    .events {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 33px auto;
+    }
+    .college-fest img {
+        /* margin: 10px; */
+        width: 100%;
+        margin: 0;
+    }
+    .event-date {
+        width: 12%;
+       
+    }
+    
+}
