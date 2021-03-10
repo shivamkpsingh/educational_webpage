@@ -75,6 +75,8 @@
 .program{
     display: flex;
     justify-content: center;
+    position: relative;
+    
 }
 .program-item{
     background-color: black;
@@ -83,7 +85,9 @@
      width: 450px;
      height: 83px;
      padding: 10px;
+     
 }
+
 
 .program-item .first::after{
     content: "Online Courses";
