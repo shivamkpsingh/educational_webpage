@@ -1,21 +1,22 @@
-@media only screen and (min-width:361px) and (max-width:576px){
-    body, html{
+@media only screen and (min-width:361px) and (max-width:576px) {
+    body,
+    html {
         overflow-x: hidden;
     }
-    .navbar{
+    .navbar {
         display: flex;
         flex-direction: column;
         height: 150px;
     }
-    .student-login ul{
+    .student-login ul {
         margin-top: -61px;
         display: flex;
         justify-content: center;
     }
     #home {
-        height:320px;
+        height: 320px;
     }
-    #home::before{
+    #home::before {
         height: 320px;
         top: 148px;
     }
@@ -36,12 +37,10 @@
     }
     #course-item {
         display: flex;
-       flex-direction: column;
-       margin-top: 25px;
-       /* height: 1246px; */
-       height: auto;
-}
-    
+        flex-direction: column;
+        margin-top: 25px;
+        height: auto;
+    }
     .item {
         margin: 10px auto;
         width: 94%;
@@ -56,14 +55,12 @@
     }
     .details input {
         width: 338px;
-        
     }
     .btn1 {
         padding: 5px 121px;
     }
     #our-services {
-        height:auto;
-        
+        height: auto;
     }
     .service-items {
         display: flex;
@@ -78,24 +75,24 @@
         margin: -24px auto;
     }
     .students-lines img {
-        display:none;
+        display: none;
     }
-    .students-lines h4{
-        margin:66px auto 0px;
+    .students-lines h4 {
+        margin: 66px auto 0px;
     }
-    .students-lines h5{
+    .students-lines h5 {
         margin: 2px;
     }
-    .events{
+    .events {
         display: flex;
         flex-direction: column;
-       height: auto;
-       margin: 33px auto;
+        height: auto;
+        margin: 33px auto;
     }
-    .college-fest{
+    .college-fest {
         margin: 0px 10px;
         padding: 4px;
-        border: 1px solid #a59d9d; 
+        border: 1px solid #a59d9d;
     }
     .college-fest img {
         width: 100%;
@@ -105,14 +102,13 @@
         width: 18%;
     }
     .footer-item {
-        display:grid;
+        display: grid;
         grid-template-columns: 1fr 1fr;
         grid-row-gap: 27px;
         margin-top: 60px;
         margin-left: 10px;
-       
     }
-    hr{
+    hr {
         display: none;
     }
 }

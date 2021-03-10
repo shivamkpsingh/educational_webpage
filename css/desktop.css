@@ -1,13 +1,14 @@
-@media only screen and (min-width:577px) and (max-width:768px){
-    body, html{
+@media only screen and (min-width:577px) and (max-width:800px) {
+    body,
+    html {
         overflow-x: hidden;
     }
     #home::before {
         top: 69px;
         height: 513px;
     }
-    #home{
-        height:513px;
+    #home {
+        height: 513px;
     }
     #about-program {
         height: auto;
@@ -35,23 +36,23 @@
         height: auto
     }
     .service-items {
-       display: flex;
-       flex-wrap: wrap;
-       margin-top: 45px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 45px;
     }
-    .service-courses{
+    .service-courses {
         margin: 15px auto;
     }
     .students-lines p {
         width: 66%;
     }
-    .students-lines img{
+    .students-lines img {
         display: none;
     }
-    .college-fest{
+    .college-fest {
         margin: 0px 10px;
         padding: 4px;
-        border: 1px solid #a59d9d; 
+        border: 1px solid #a59d9d;
     }
     .events {
         display: flex;
@@ -64,7 +65,5 @@
     }
     .event-date {
         width: 12%;
-       
     }
-    
 }
