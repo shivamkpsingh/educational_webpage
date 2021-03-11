@@ -3,6 +3,9 @@
     html {
         overflow-x: hidden;
     }
+    .student-login ul li a {
+        padding: 8px 7px;
+    }
     #home::before {
         top: 69px;
         height: 513px;
